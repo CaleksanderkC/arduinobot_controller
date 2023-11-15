@@ -1,0 +1,8 @@
+{
+  "package_name": "arduinobot_msg",
+  "non_idl_tuples": [
+    "/home/alexander/Documents/arduinobot_ws/src/arduinobot_msg:srv/AddTwoInts.srv",
+    "/home/alexander/Documents/arduinobot_ws/src/arduinobot_msg:srv/QuaternionToEuler.srv",
+    "/home/alexander/Documents/arduinobot_ws/src/arduinobot_msg:srv/EulerToQuaternion.srv"
+  ]
+}

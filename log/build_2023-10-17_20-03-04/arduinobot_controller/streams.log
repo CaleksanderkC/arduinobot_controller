@@ -1,0 +1,48 @@
+[0.232s] Invoking command in '/home/alexander/Documents/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alexander/Documents/arduinobot_ws/src/arduinobot_controller -DCMAKE_INSTALL_PREFIX=/home/alexander/Documents/arduinobot_ws/install/arduinobot_controller
+[0.367s] -- The C compiler identification is GNU 11.4.0
+[0.495s] -- The CXX compiler identification is GNU 11.4.0
+[0.509s] -- Detecting C compiler ABI info
+[0.611s] -- Detecting C compiler ABI info - done
+[0.619s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.619s] -- Detecting C compile features
+[0.619s] -- Detecting C compile features - done
+[0.622s] -- Detecting CXX compiler ABI info
+[0.732s] -- Detecting CXX compiler ABI info - done
+[0.740s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.740s] -- Detecting CXX compile features
+[0.741s] -- Detecting CXX compile features - done
+[0.746s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.958s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.082s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.182s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.183s] -- Added test 'lint_cmake' to check CMake code style
+[1.183s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.185s] -- Added test 'xmllint' to check XML markup files
+[1.187s] -- Configuring done
+[1.191s] -- Generating done
+[1.193s] -- Build files have been written to: /home/alexander/Documents/arduinobot_ws/build/arduinobot_controller
+[1.198s] Invoked command in '/home/alexander/Documents/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alexander/Documents/arduinobot_ws/src/arduinobot_controller -DCMAKE_INSTALL_PREFIX=/home/alexander/Documents/arduinobot_ws/install/arduinobot_controller
+[1.201s] Invoking command in '/home/alexander/Documents/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alexander/Documents/arduinobot_ws/build/arduinobot_controller -- -j12 -l12
+[1.251s] Invoked command in '/home/alexander/Documents/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alexander/Documents/arduinobot_ws/build/arduinobot_controller -- -j12 -l12
+[1.293s] Invoking command in '/home/alexander/Documents/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alexander/Documents/arduinobot_ws/build/arduinobot_controller
+[1.303s] -- Install configuration: ""
+[1.303s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config
+[1.303s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config/arduinobot_controllers.yaml
+[1.303s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch
+[1.303s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/controller.launch.py
+[1.304s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller
+[1.304s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/parent_prefix_path/arduinobot_controller
+[1.304s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.sh
+[1.305s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.dsv
+[1.305s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.sh
+[1.305s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.dsv
+[1.305s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.bash
+[1.306s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.sh
+[1.306s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.zsh
+[1.306s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.dsv
+[1.306s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv
+[1.306s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/packages/arduinobot_controller
+[1.306s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig.cmake
+[1.307s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig-version.cmake
+[1.307s] -- Installing: /home/alexander/Documents/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.xml
+[1.311s] Invoked command in '/home/alexander/Documents/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alexander/Documents/arduinobot_ws/build/arduinobot_controller

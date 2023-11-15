@@ -1,0 +1,22 @@
+colcon build 
+
+ros2 launch urdf_tutorial display.launch.py model:=/home/alexander/Documents/arduinobot_ws/src/arduinobot_description/urdf/arduinobot.urdf.xacro
+
+ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro /home/alexander/Documents/arduinobot_ws/src/arduinobot_description/urdf/arduinobot.urdf.xacro)"
+
+
+ros2 launch arduinobot_description gazebo.launch.py
+conda activate my_env
+conda deactivate
+
+
+
+
+
+ros2 launch arduinobot_description gazebo.launch.py
+ros2 launch arduinobot_controller controller.launch.py
+ros2 topic pub /gripper_controller/commands std_msgs/msg/Float64MultiArray "layout:
+  dim: []
+  data_offset: 0
+data: [-1]" 
+

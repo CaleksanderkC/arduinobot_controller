@@ -1,0 +1,21 @@
+{
+  "package_name": "arduinobot_msg",
+  "output_dir": "/home/alexander/Documents/arduinobot_ws/build/arduinobot_msg/rosidl_typesupport_cpp/arduinobot_msg",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/alexander/Documents/arduinobot_ws/build/arduinobot_msg/rosidl_adapter/arduinobot_msg:srv/AddTwoInts.idl",
+    "/home/alexander/Documents/arduinobot_ws/build/arduinobot_msg/rosidl_adapter/arduinobot_msg:srv/QuaternionToEuler.idl",
+    "/home/alexander/Documents/arduinobot_ws/build/arduinobot_msg/rosidl_adapter/arduinobot_msg:srv/EulerToQuaternion.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/alexander/Documents/arduinobot_ws/build/arduinobot_msg/rosidl_adapter/arduinobot_msg/srv/AddTwoInts.idl",
+    "/home/alexander/Documents/arduinobot_ws/build/arduinobot_msg/rosidl_adapter/arduinobot_msg/srv/QuaternionToEuler.idl",
+    "/home/alexander/Documents/arduinobot_ws/build/arduinobot_msg/rosidl_adapter/arduinobot_msg/srv/EulerToQuaternion.idl"
+  ]
+}
